@@ -1,0 +1,697 @@
+nav{
+position: absolute;
+top:3vw;
+right: 3.5vw;
+display: block;
+}
+.navlinks{
+   display: flex;
+}
+.navlinks p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding-right:30px ;
+}
+.navlinks p:hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+    transition: all 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .navlinks{
+    display: none;
+  }
+}
+/*Tool bar*/
+.tool-bar {
+  position: fixed;
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  width: 5vw;
+  margin-left: 5%;
+}
+
+.Burger div{
+  width: 35px;
+  height: 5px;
+backdrop-filter: invert(100%);
+  margin: 6px 0;
+  border-radius: 50px;
+}
+.closenav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.479);
+  display: none;
+}
+.closehere p{
+  display: inline-block;
+  font-size: 4.5vw;
+  color: white;
+  rotate: -45deg;
+  position: absolute;
+  top:-40%;
+  opacity: 0.5;
+}
+.closenav--open{
+  display: block;
+}
+.sidebar{
+  position:fixed;
+  background-color: #0D0E13;
+  opacity: 0.97;
+  color: white;
+  top:0;
+  right: 0%;
+  height: 100vh;
+  width:65vw;
+  transform: translateX(-200%);
+  transition: all 0.8s;
+  z-index: 30;
+}
+.sidebar p {
+  position: relative;
+  top:30%;
+  left:50%;
+  height: 1vh;
+  width: 2vw;
+  padding: 5%;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+  font-size: 5vw;
+  font-weight: 400;
+}
+.sidebar p:hover{
+  text-decoration: underline;
+}
+.navimg{
+  position:fixed;
+  left:7%;
+  display: none;
+  rotate: -7deg;
+}
+.sidebar p div img{
+  height: 60vh;
+  width:20vw;
+  border-radius: 5px;
+
+}
+.sidebar p:hover>div {
+  display: block;
+
+}
+.sidebar--open{
+  transform: translateX(0%);
+}
+@media only screen and (max-width: 600px) {
+  .closehere p{
+    font-size: 2rem;
+    top:0;
+    left:10%;
+  }
+  .sidebar{
+    height: 80vh;
+    width: 100vw;
+  }
+  .sidebar p{
+    font-size:4rem;
+    padding-bottom: 20%;
+    top:15%;
+    left: 5%;
+    text-decoration: underline;
+    margin-top: 5%;
+  }
+  .Burger div{
+    width: 25px;
+    background-color: rgb(163, 209, 250);
+  }
+
+}
+
+@font-face {
+  font-family:gf;
+  src: url(../assets/grifterbold.otf);
+}
+/*sidebar*/
+section{
+    width: 70vw;
+    height: 60vh;
+    margin-top: 10%;
+}
+/*projects*/
+svg{
+  width: 50px;
+  height: 50px;
+  margin-top: 10%;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+button{
+  margin: 10%;
+  border-radius: 5px;
+  width: 30%;
+  height: 10%;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: thin;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+  transition: all 1s;
+}
+.projectone{
+    display: flex;
+}
+.projectone video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projectone button:hover{
+  color: white;
+ background-color: #2997FF;
+ border-style: none;
+}
+.projectone p:nth-child(1){
+  margin: 10%;
+}
+.projectone p:nth-child(2){
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 10%;
+}
+.projectone div:nth-child(1){
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+}
+.projectone div:nth-child(1):hover{
+  color: #808080;
+  background-color: rgb(200, 200, 200);
+  font-size: 1.5rem;
+  transition: all 1s;
+
+}
+.projectone div:nth-child(2){
+    width: 60%;
+    height: 100%;
+}
+
+
+.projecttwo{
+    display: flex;
+}
+.projecttwo video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projecttwo p:nth-child(1){
+  margin: 10%;
+}
+.projecttwo p:nth-child(2){
+}
+.projecttwo div:nth-child(1){
+    width: 60%;
+    height: 100%;
+}
+.projecttwo div:nth-child(2){
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+.projecttwo div:nth-child(2):hover{
+  background-color: #2997FF;
+  background-size: cover;
+  font-size: 1.5rem;
+  transition: all 1s;
+}
+.projecttwo button:hover{
+  color: red;
+  background-color: yellow;
+  border-color: green;
+  border-width: thick;
+}
+
+
+.projectthree{
+    display: flex;
+}
+.projectthree video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projectthree img{
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+}
+.projectthree div:nth-child(1){
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+.projectthree div:nth-child(1):hover{
+ background-color: white;
+ color:black;
+ font-size: 1.5rem;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+ transition: all 1s;
+}
+.projectthree div:nth-child(1) img{
+  animation: myAnim 10s linear 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.projectthree div:nth-child(2){
+    width: 60%;
+    height: 100%;
+    background-color: yellow;
+}
+.projectthree button:hover{
+  background-color: rgb(225,169,95);
+  border-radius: 10px;
+}
+
+
+.projectfour{
+   display: flex;
+}
+.projectfour video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projectfour img{
+  width: 200px;
+  height: 200px;
+  margin: 1%;
+}
+.projectfour div:nth-child(1){
+    width: 60%;
+    height: 100%;
+}
+.projectfour div:nth-child(2){
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    font-size: 1.2rem;
+}
+.projectfour div:nth-child(2):hover{
+  font-size: 1.5rem;
+  transition: all 1s;
+}
+
+.projectfive{
+  display: flex;
+}
+.projectfive video {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.projectfive div:nth-child(1){
+   width: 40%;
+   height: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   align-items: center;
+   background-color: black;
+   color: white;
+   font-size: 1.2rem;
+}
+.projectfive div:nth-child(2){
+   width: 60%;
+   height: 100%;
+}
+.projectfive div:nth-child(1):hover{
+ font-size: 1.5rem;
+ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+ background-size: 400% 400%;
+ animation: gradient 5s ease infinite;
+ transition: all 1s;
+}
+@keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
+}
+
+
+@media only screen and (max-width: 600px){
+  section{
+    width:100vw;
+    height: 80vh;
+    margin-top: 15%;
+  }
+  .projectone{
+    flex-direction:column-reverse
+  }
+  svg{
+    width: 30px;
+    height: 30px;
+    margin-top: 10%;
+  }
+  button{
+    margin: 10%;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .projectone button{
+  color: white;
+   background-color: #2997FF;
+   border-style: none;
+  }
+  .projectone p:nth-child(1){
+    margin: 5%;
+  }
+  .projectone p:nth-child(2){
+    margin: 1%;
+  }
+  .projectone div:nth-child(1){
+      width: 100%;
+      height: 50%;
+  }
+  .projectone div:nth-child(2){
+      width: 100%;
+      height: 50%;
+  }
+  .projecttwo{
+    flex-direction: column;
+}
+.projecttwo p:nth-child(1){
+  margin: 5%;
+}
+.projecttwo div:nth-child(1){
+    width: 100%;
+    height: 50%;
+}
+.projecttwo div:nth-child(2){
+    width: 100%;
+    height: 50%;
+}
+.projectthree{
+  flex-direction: column-reverse;
+}
+.projectthree img{
+width: 100px;
+height: 100px;
+margin: 5%;
+}
+.projectthree div:nth-child(1){
+  width: 100%;
+  height: 50%;
+}
+.projectthree div:nth-child(2){
+  width: 100%;
+  height: 50%;
+}
+.projectthree button{
+background-color: rgb(225,169,95);
+border-radius: 10px;
+}
+.projectfour{
+  flex-direction: column;
+}
+.projectfour div:nth-child(1){
+  width: 100%;
+}
+.projectfour div:nth-child(2){
+  width: 100%;
+}
+.projectfour img{
+  width: 150px;
+  height: 150px;
+  margin: 1%;
+}
+.projectfive{
+  flex-direction: column-reverse;
+}
+.projectfive div:nth-child(1){
+  width: 100%;
+}
+.projectfive div:nth-child(2){
+  width: 100%;
+}
+}
+/*Projects*/
+/*About*/
+.Skilltext{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Skilltext p{
+  font-size: 4.5rem;
+}
+.skills{
+  width: 90vw;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skills div{
+  margin: 5%;
+  width: 5rem;
+  height: 5rem;
+}
+.skills div:hover{
+  width: 6rem;
+  height: 6rem;
+  transition: all 1s; 
+}
+.skills div p{
+  font-size: 1.2rem;
+  position: relative;
+  text-align: center;
+  top:100%;
+  margin: 10%;
+}
+.skills div:nth-child(1){
+  background-image: url(/src/assets/skills/react-2.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(2){
+  background-image: url(/src/assets/skills/html5-2.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(3){
+  background-image: url(/src/assets/skills/logo-javascript.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(4){
+  background-image: url(/src/assets/skills/css-3.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(5){
+  background-image: url(/src/assets/skills/flutter.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(6){
+  background-image: url(/src/assets/skills/dart.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(7){
+  background-image: url(/src/assets/skills/python-3.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(8){
+  background-image: url(/src/assets/skills/git-bash.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(9){
+  background-image: url(/src/assets/skills/logo-blender.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(10){
+  background-image: url(/src/assets/skills/figma-1.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px){
+  .skills div{
+    width:3.5rem;
+    height:3.5rem;
+  }
+  .skills div p{
+    font-size: 0.7rem;
+  }
+
+}
+
+/*About*/
+/*contact */
+.Cmain{
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+}
+.Contactbar{
+  position: relative;
+  top:30%;
+  width: 100vw;
+  overflow: hidden;
+}
+.GETINT {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 100s linear infinite;
+}
+.GETINT p {
+  display: inline-block;
+  font-size: 9rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(10%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.CMap{
+  position: relative;
+  top:-15%;
+  left:50%;
+  width: 25%;
+  height: 85%;
+  backdrop-filter: invert(100%);
+}
+.Cinfo{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  top:-30%;
+  width: 45vw;
+  height: 20vh;
+  z-index: -1;
+  transition: all 1s ease 0s;
+}
+.Cinfo p:nth-child(1) {
+  font-size: 1.5rem;
+}
+ .Cinfo p:nth-child(2) {
+  font-size: 1.5rem;
+
+}
+@media only screen and (max-width: 600px){
+  .GETINT p{
+    font-size: 5rem;
+  }
+  .Cinfo{
+    top:-20%;
+    width: 100vw;
+  }
+  .Cinfo p:nth-child(1) {
+    font-size: 1rem;
+  }
+   .Cinfo p:nth-child(2) {
+    font-size: 1rem;
+  
+  }
+  .CMap{
+    width: 50%;
+    height: 100%;
+
+  }
+}
+/*contact */
+/*FOoter*/
+.footervid{
+  width: 100%;
+  height: 40vh;
+}
+.footervid video {
+  position: relative;
+  top:0;
+  left:0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;  
+  z-index: -1;
+}
+@media only screen and (max-width: 600px){
+  .footervid{
+    height: 30vh;
+  }
+}
+
+/*Footer*/
+.error{
+ height: 100vh;
+ width: 100%;
+}
+.hidden{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6vh;
+  background-color: black;
+}
