@@ -1,6 +1,6 @@
 import React from "react";
-import Mailer from "../mailer";
 import '../pages/pages.css';
+
 
 function Contact(){
     return(
@@ -13,13 +13,13 @@ function Contact(){
          </div>
 
          <div className="CMap">
-            <Mailer/>
 
          </div>
 
          <div className="Cinfo">
           <p>abhishekbeegun0642@gmail.com</p>
           <p>+230 5725 77 00</p>
+          <p>Send me an email type /mail</p>
          </div>
         </div>
         

@@ -3,6 +3,7 @@ import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import Error404 from './pages/404';
+import Mailer from './mailer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route exact path ="/" element ={<Home/>}/>
         <Route exact path ="/*" element={<Error404/>}/>
+        <Route exact path ="/mail" element={<Mailer/>} />
       </Routes>
       </BrowserRouter>
      

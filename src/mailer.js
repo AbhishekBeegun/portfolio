@@ -12,7 +12,7 @@ function Mailer() {
         }).catch(err => console.log(err));
     }
   return (
-    <div className="mail">
+    <div className="mail" id = "mail">
         <form className="formail"
          onSubmit={sendEmail}>
             <label>Enter Name</label>
@@ -25,7 +25,7 @@ function Mailer() {
             <textarea name='message' rows='4' />
             <input type ='submit' value='Send' />
         </form>
-        <p>P.S You will not receive a confirmation message as Emailjs quota is 200 email per month.I will try to reply as soon as possible.</p>
+        <p>P.S You will not receive a confirmation message as EmailJs quota is 200 email per month.I will try to reply as soon as possible.</p>
     </div>
   )
 }

@@ -17,6 +17,7 @@
 }
 
 .mail{
+  background-color: black;
   height: 100%;
   width: 100%;
   display: flex;
@@ -32,14 +33,27 @@
   justify-content: space-evenly;
   width:80%;
   height: 70%;
-  color: white;
+  
 }
 .formail input{
   height: 4rem;
   font-size: 2rem;
   background-color: transparent;
   color: white;
+ 
 }
 .mail p{
-  font-size: 0.8rem;
+  font-size: 4rem;
+}
+.mail input:nth-child(7){
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.mail input:nth-child(7):hover{
+ background-color: black;
+ color: white;
+ transition: 1s ease;
+ border-width: medium;
+ border-color: white;
 }
