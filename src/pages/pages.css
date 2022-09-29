@@ -1,3 +1,4 @@
+
 nav{
 position: absolute;
 top:3vw;
@@ -134,7 +135,6 @@ backdrop-filter: invert(100%);
   }
   .Burger div{
     width: 25px;
-    background-color: rgb(163, 209, 250);
   }
 
 }
@@ -436,16 +436,6 @@ background-color: white;
     height: 30px;
     margin-top: 10%;
   }
-  button{
-    margin: 10%;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  .projectone button{
-  color: white;
-   background-color: #2997FF;
-   border-style: none;
-  }
   .projectone p:nth-child(1){
     margin: 5%;
   }
@@ -455,6 +445,8 @@ background-color: white;
   .projectone div:nth-child(1){
       width: 100%;
       height: 50%;
+      color: #808080;
+      background-color: rgb(200, 200, 200);
   }
   .projectone div:nth-child(2){
       width: 100%;
@@ -466,6 +458,8 @@ background-color: white;
 .projecttwo div:nth-child(1){
     width: 100%;
     height: 50%;
+    background-color: #2997FF;
+    background-size: cover;
 }
 .projecttwo div:nth-child(2){
     width: 100%;
@@ -482,6 +476,11 @@ margin: 0%;
 .projectthree div:nth-child(1){
   width: 100%;
   height: 50%;
+  background-color: white;
+ color:black;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
 }
 .projectthree div:nth-child(2){
   width: 100%;
@@ -510,6 +509,9 @@ border-radius: 10px;
 }
 .projectfive div:nth-child(1){
   width: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
 }
 .projectfive div:nth-child(2){
   width: 100%;
@@ -522,6 +524,11 @@ border-radius: 10px;
 }
 .projectsix div:nth-child(2){
   width: 100%;
+  background-color: white;
+  color: black;
+  border-width: medium;
+  border-style: double;
+  border-color: black;
 }
 }
 /*Projects*/
