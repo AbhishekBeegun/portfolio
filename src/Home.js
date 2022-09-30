@@ -15,7 +15,12 @@ function Home(){
 
     const toggleSidebar =() => {
         setSidebar((prevState)=> !prevState)
-    }
+    }/* pa re servi sa nav la enkr onclick best*/
+
+    /*const [theme,setTheme] = useState("dark");
+    const toggleTheme =() => {
+        setTheme((curr) => (curr === "light" ? "dark" : "light"))
+    }; id={theme} for div Home ek dn css #light + dark to manipulate*/
     return (
         <div className="Home">
             <Toolbar openSidebar={toggleSidebar}/>
