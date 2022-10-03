@@ -11,6 +11,7 @@ function About(){
                     <div><p>HTML</p></div>
                     <div><p>Javascript</p></div>
                     <div><p>CSS</p></div>
+                    <div><p>Tailwind CSS</p></div>
                     <div><p>Flutter</p></div>
                     <div><p>Dart</p></div>
                     <div><p>Python</p></div>

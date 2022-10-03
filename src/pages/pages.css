@@ -593,42 +593,47 @@ border-radius: 10px;
   background-repeat: no-repeat;
 }
 .skills div:nth-child(5){
-  background-image: url(/src/assets/skills/flutter.svg);
+  background-image: url(/src/assets/tailwindcss.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .skills div:nth-child(6){
-  background-image: url(/src/assets/skills/dart.svg);
+  background-image: url(/src/assets/skills/flutter.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .skills div:nth-child(7){
-  background-image: url(/src/assets/skills/python-3.svg);
+  background-image: url(/src/assets/skills/dart.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .skills div:nth-child(8){
-  background-image: url(/src/assets/skills/git-bash.svg);
+  background-image: url(/src/assets/skills/python-3.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .skills div:nth-child(9){
-  background-image: url(/src/assets/skills/logo-blender.svg);
+  background-image: url(/src/assets/skills/git-bash.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .skills div:nth-child(10){
+  background-image: url(/src/assets/skills/logo-blender.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.skills div:nth-child(11){
   background-image: url(/src/assets/skills/figma-1.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 @media only screen and (max-width: 600px){
   .skills div{
     width:5rem;
