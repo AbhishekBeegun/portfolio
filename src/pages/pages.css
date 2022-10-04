@@ -542,7 +542,8 @@ border-radius: 10px;
   justify-content: center;
 }
 .Skilltext p{
-  font-size: 4.5rem;
+  font-size: 2.5rem;
+  margin-top: 10px;
 }
 .skills{
   width: 90vw;

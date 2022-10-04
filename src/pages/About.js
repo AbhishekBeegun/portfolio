@@ -4,7 +4,7 @@ import '../pages/pages.css';
 function About(){
     return(
             <div className="Skilltext" id="About">
-                <p></p> 
+                <p>Tools I Use</p> 
                 <div className="skills">
             
                     <div><p>React JS</p></div>
