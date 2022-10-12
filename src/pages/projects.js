@@ -70,7 +70,7 @@ function Projects (){
                     &nbsp;&nbsp;&nbsp;
                     </p>
                     <a className="btn" href="https://applehomeclone.vercel.app" alt="">V1</a>
-                    <a className="btn" href="https://appletailwind.vercel.app/" alt="">V2 Tailwind</a>
+                    <a className="btn" href="https://appletailwind.vercel.app" alt="">V2 Tailwind</a>
                 </div>
                 <div>
                     <video src={applevid} alt="content loading" autoPlay loop muted />
